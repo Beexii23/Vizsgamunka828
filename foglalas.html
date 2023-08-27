@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="fooldal.js"></script>
+    <title>Foglalás</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+          <a href="#" class="nav-branding">GameBar</a>
+    
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="fooldal.html" class="nav-link">Főoldal</a>
+            </li>
+            <li class="nav-item">
+              <a href="arak.html" class="nav-link">Áraink</a>
+            </li>
+            <li class="nav-item">
+              <a href="foglalas.html" class="nav-link">Foglalás</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+    
+          </div>
+    
+        </nav>
+      </header>
+
+
+      <h1 class="foglalas"> Add le a rendelésed, hogy biztosan legyen helyed nálunk.</h1>
+
+
+
+    <form action="Foglalas" method="post" id=fizetes>
+    <fieldset>
+    <legend>Alapadataid</legend>
+    <ol>
+    <li>
+    <label for=name>Név</label>
+    <input id=name name=name type=text placeholder="Családi és keresztnév" required autofocus>
+    </li>
+    <li>
+    <label for=email>E-mail</label>
+    <input id=email name=email type=email placeholder="email@domain.com" required>
+    </li>
+    <li>
+    <label for=phone>Mobiltelefon</label>
+    <input id=phone name=phone type=tel placeholder="+36201234567" required>
+    </li>
+    <li>
+        <label for="comm">Megjegyzés</label>
+        <textarea name="Megjegyzés"  id="area" cols="40" rows="5" aria-placeholder="Megjegyzés..."></textarea>
+    </li>
+    <li>
+        <label for="elfogad">Elfogadod a szerődést.</label>
+        
+        <input type="checkbox" name="box" id="box" required>
+    </li>
+    <li>
+        <input type="submit" name="Küldés">
+    </li>
+      </ol>
+      </fieldset>
+      </form>
+      
+
+
+
+
+<footer class="footer">
+        <div class="divp">
+          <p class="p1">Email cím:gamebarhelp@gmail.com</p>
+        </div>
+    
+        <div class="divp">
+          <p class="p2">Telefonszám: +36 12 345 67 89 </p>
+    </div>
+     
+        
+</footer>
+    
+</body>
+</html>
